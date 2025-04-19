@@ -4,11 +4,12 @@ import random, time
 
 
 print("This generator only generates Visa credit cards.")
-nb_nitros = int(input("Veuillez saisir le nombre de cartes Ã  gÃ©nÃ©rer: "))
+nb_nitros = int(input("Veuillez saisir le nombre de cartes à générer: "))
 nb = 1
-print("GÃ©nÃ©ration de la carte de crÃ©dits..")
+print("Génération de la carte de crédits..")
 while nb <= nb_nitros:
-    exp_date2 = str(random.randint(1, 12))
+    exp_date2 = str(random.randint08-2025
+
     if exp_date2 == str(1):
         exp_date2 = "0" + exp_date2
     elif exp_date2 == str(2):
